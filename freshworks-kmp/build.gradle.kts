@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "io.github.aditya-gupta99"
-version = "1.0.3"
+version = "1.0.5"
 
 kotlin {
     androidLibrary {
@@ -44,7 +44,8 @@ kotlin {
 
         framework {
             baseName = "FreshchatKMP"
-            isStatic = false
+            isStatic = true      // static embedding
+            linkerOpts("-ObjC")
         }
     }
 

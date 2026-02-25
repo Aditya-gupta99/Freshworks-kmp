@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../freshworks-kmp/1.0.3/freshworks-kmp-1.0.3.module",
+    "group": "io.github.aditya-gupta99",
+    "module": "freshworks-kmp",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "freshworks-kmp-iosSimulatorArm64Main-1.0.3.klib",
+          "url": "freshworks-kmp-iossimulatorarm64-1.0.3.klib",
+          "size": 41180,
+          "sha512": "0f1b354468c29ce608a8071bed3efeec42576bf74b0157c69c0549bb84a8fb3afd9315786ff88ad9ecb2f68539138bc5e01596578f1816e4a373ff00f53b04a4",
+          "sha256": "96039fccfb6a6009af5f1b909bce0a1f58fc256d4baac950e31e58aa74f86ac1",
+          "sha1": "e7685d3b2b9835913b786610927e53c4ee25940d",
+          "md5": "aa39f2a82e750dc204972fc5889d44df"
+        },
+        {
+          "name": "freshworks-kmp-iosSimulatorArm64Cinterop-FreshchatSDKMain-1.0.3.klib",
+          "url": "freshworks-kmp-iossimulatorarm64-1.0.3-cinterop-FreshchatSDK.klib",
+          "size": 12477,
+          "sha512": "519c1f16091545a33de42b0fe411d6c2291c13dcb589b42cc59c3940702ec7659f25a801714ef414bccade10a4e59efb1e9717862ba6f0e84ba889638814215a",
+          "sha256": "5b8b416b20014c85f1ae0f0190d59a1fcacd50c14274b8adbe262afdf012a16c",
+          "sha1": "b4f734249e3e54fc19aee79bf1798336fe2ffda8",
+          "md5": "b39d7ffb1443fc9c72f67598c59d13f1"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "freshworks-kmp-iossimulatorarm64-1.0.3-sources.jar",
+          "url": "freshworks-kmp-iossimulatorarm64-1.0.3-sources.jar",
+          "size": 10258,
+          "sha512": "bf6e141458ca7606f234763f2b8a3e64a79f52710e2f7a6c04db107a7064a611d28fbc916544fbd3810befd2fd7ccea3c849eb0916b67dd8e6ddc15e6f89453b",
+          "sha256": "f18e584f7f46bbb1316d0f158c10125cae50cfbb39762c7b6a86537c9d28bcb5",
+          "sha1": "ae8472425d128b8228c2e71fe5dc13886ebb00b3",
+          "md5": "b8e55f74267d24a5604bccd0d43cbda7"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "freshworks-kmp-iossimulatorarm64-1.0.3-metadata.jar",
+          "url": "freshworks-kmp-iossimulatorarm64-1.0.3-metadata.jar",
+          "size": 36713,
+          "sha512": "65b4abf1a1c567ee190cb0e8926ff2125c094aa2647bb04719934b782e86bc1acf088a8ab87290c6720d3c1f0dff4efbbfe29535325129793af477400d37ebe0",
+          "sha256": "e2229c09906c27fc95124fa6454004977254c14276badba2856fe546dd0a22b2",
+          "sha1": "556b0ffcf15892f8b65e725cfa791f172ef50feb",
+          "md5": "dcf22707a58deaa9d62359bad5c399c9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[versions]
+agp = "8.12.3"
+firebaseMessagingKtx = "24.1.2"
+freshchatAndroid = "6.4.7"
+kotlin = "2.2.10"
+android-minSdk = "24"
+android-compileSdk = "36"
+kotlinxCoroutinesAndroid = "1.10.2"
+localbroadcastmanager = "1.1.0"
+vanniktechMavenPublish = "0.34.0"
+cocopods = "2.3.10"
+
+[libraries]
+firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
+freshchat-android = { module = "com.github.freshworks:freshchat-android", version.ref = "freshchatAndroid" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+localbroadcastmanager = { module = "androidx.localbroadcastmanager:localbroadcastmanager", version.ref = "localbroadcastmanager" }
+
+[plugins]
+android-kotlin-multiplatform-library = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+vanniktech-mavenPublish = { id = "com.vanniktech.maven.publish", version.ref = "vanniktechMavenPublish" }
+kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "cocopods" }

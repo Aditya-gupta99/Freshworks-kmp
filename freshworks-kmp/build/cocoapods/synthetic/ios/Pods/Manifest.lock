@@ -1,0 +1,16 @@
+PODS:
+  - FreshchatSDK (6.4.5)
+
+DEPENDENCIES:
+  - FreshchatSDK
+
+SPEC REPOS:
+  trunk:
+    - FreshchatSDK
+
+SPEC CHECKSUMS:
+  FreshchatSDK: 5132dfb03c05e058feb97c6a3d6c33f847649a80
+
+PODFILE CHECKSUM: 43af354ac792378feaea401bf33764b5af3ea455
+
+COCOAPODS: 1.16.2

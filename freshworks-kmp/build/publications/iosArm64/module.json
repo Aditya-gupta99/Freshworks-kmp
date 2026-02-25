@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../freshworks-kmp/1.0.3/freshworks-kmp-1.0.3.module",
+    "group": "io.github.aditya-gupta99",
+    "module": "freshworks-kmp",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "freshworks-kmp-iosArm64Main-1.0.3.klib",
+          "url": "freshworks-kmp-iosarm64-1.0.3.klib",
+          "size": 41114,
+          "sha512": "30ea571813b9b71df4ca5b237e3d6dff114ec3db03378f08ac0d55a454266b8a05db0c9b3fff013454d9f855199f4bf73932012b723df1a8a0450e41b261f6b6",
+          "sha256": "f2e154c33679357d9e67a0f395e90b8d7bd6c11022360a36beb0f9d21875f4f6",
+          "sha1": "653d1b474bb81ff59593fff6aa65da39d40c55c8",
+          "md5": "74a4ec06472d768791ec4642a9f8fe87"
+        },
+        {
+          "name": "freshworks-kmp-iosArm64Cinterop-FreshchatSDKMain-1.0.3.klib",
+          "url": "freshworks-kmp-iosarm64-1.0.3-cinterop-FreshchatSDK.klib",
+          "size": 12365,
+          "sha512": "8379e5050a008a3af1a17d0a0819f61b8308cdcd3490f3cd1cdaa5189ba9d84646f487f727d0975e3bb26af0ada45f6130d7c6705748199b9df775910963220a",
+          "sha256": "9476a24ef035c5ae6fcbda6984adef37543c2bd7537f54962ed737314bb9e252",
+          "sha1": "fb52243c30c03e1f97e6d792527b0e830c506e53",
+          "md5": "ebf92ca2a5ce331d15e69be22a5c158d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "freshworks-kmp-iosarm64-1.0.3-sources.jar",
+          "url": "freshworks-kmp-iosarm64-1.0.3-sources.jar",
+          "size": 10258,
+          "sha512": "bf6e141458ca7606f234763f2b8a3e64a79f52710e2f7a6c04db107a7064a611d28fbc916544fbd3810befd2fd7ccea3c849eb0916b67dd8e6ddc15e6f89453b",
+          "sha256": "f18e584f7f46bbb1316d0f158c10125cae50cfbb39762c7b6a86537c9d28bcb5",
+          "sha1": "ae8472425d128b8228c2e71fe5dc13886ebb00b3",
+          "md5": "b8e55f74267d24a5604bccd0d43cbda7"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "freshworks-kmp-iosarm64-1.0.3-metadata.jar",
+          "url": "freshworks-kmp-iosarm64-1.0.3-metadata.jar",
+          "size": 36713,
+          "sha512": "c35a5c155aa182c650b30ac11f688df3f7d528adccc7206554515338cfaab48b754e4f3a77042fd6be30e90c649ca316d32f7850b0e300b60dfdaf37a7f58c59",
+          "sha256": "8b095ce0de55ddfc385e4bf43bb5a7184abe3d252394e3170d50d82b6d84407a",
+          "sha1": "08f03c78c35683d0f0f5fe95a6d589890c33ccc3",
+          "md5": "7d21ab7e71854a9dab4c575e447f095c"
+        }
+      ]
+    }
+  ]
+}

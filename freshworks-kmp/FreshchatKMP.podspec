@@ -6,13 +6,13 @@ Pod::Spec.new do |spec|
     spec.authors                  = ''
     spec.license                  = ''
     spec.summary                  = 'KMP Freshchat wrapper'
-    spec.vendored_frameworks      = 'build/cocoapods/framework/FreshchatKMP.framework'
+    spec.vendored_frameworks      = 'build/cocoapods/framework/freshworks_kmp.framework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target    = '13.0'
     spec.dependency 'FreshchatSDK'
-    if !Dir.exist?('build/cocoapods/framework/FreshchatKMP.framework') || Dir.empty?('build/cocoapods/framework/FreshchatKMP.framework')
+    if !Dir.exist?('build/cocoapods/framework/freshworks_kmp.framework') || Dir.empty?('build/cocoapods/framework/freshworks_kmp.framework')
         raise "
-        Kotlin framework 'FreshchatKMP' doesn't exist yet, so a proper Xcode project can't be generated.
+        Kotlin framework 'freshworks_kmp' doesn't exist yet, so a proper Xcode project can't be generated.
         'pod install' should be executed after running ':generateDummyFramework' Gradle task:
             ./gradlew :freshworks-kmp:generateDummyFramework
         Alternatively, proper pod installation is performed during Gradle sync in the IDE (if Podfile location is set)"
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
     }
     spec.pod_target_xcconfig = {
         'KOTLIN_PROJECT_PATH' => ':freshworks-kmp',
-        'PRODUCT_MODULE_NAME' => 'FreshchatKMP',
+        'PRODUCT_MODULE_NAME' => 'freshworks_kmp',
     }
     spec.script_phases = [
         {

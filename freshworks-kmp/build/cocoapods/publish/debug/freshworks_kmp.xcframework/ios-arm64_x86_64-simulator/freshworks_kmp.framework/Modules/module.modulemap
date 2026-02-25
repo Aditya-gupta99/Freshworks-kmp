@@ -1,0 +1,5 @@
+framework module "freshworks_kmp" {
+    umbrella header "freshworks_kmp.h"
+    export *
+    module * { export * }
+}

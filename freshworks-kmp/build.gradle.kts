@@ -9,7 +9,7 @@ plugins {
 }
 
 group = "io.github.aditya-gupta99"
-version = "1.0.5"
+version = "1.0.6"
 
 kotlin {
     androidLibrary {
@@ -37,15 +37,13 @@ kotlin {
         ios.deploymentTarget = "13.0"
         name = "FreshchatKMP"
 
-        pod("FreshchatSDK") {
-            // Uses SPM-compatible pod from Freshworks
-            // Alternatively: version = "~> 10.0"
-        }
+        pod("FreshchatSDK")
+    }
 
-        framework {
+    targets.withType<org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget> {
+        binaries.framework {
             baseName = "FreshchatKMP"
-            isStatic = true      // static embedding
-            linkerOpts("-ObjC")
+            isStatic = true
         }
     }
 
